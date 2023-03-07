@@ -11,3 +11,7 @@ console.log(minusOne("Infinity"));
 const makeSentence = function (one, two, three) {
   console.log(`${one} ${two} ${three}`);
 };
+
+const getLastElement = function (arr) {
+  return arr.length - 1;
+};
