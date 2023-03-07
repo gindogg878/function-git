@@ -13,5 +13,19 @@ const makeSentence = function (one, two, three) {
 };
 
 const getLastElement = function (arr) {
-  return arr.length - 1;
+  return arr[arr.length - 1];
 };
+
+getLastElement([1, 2, 3, 4, 5, 6]);
+getLastElement(["a", "b", "c"]);
+getLastElement([
+  [1, 2, 3],
+  [4, 5, 6],
+]);
+
+console.log(
+  getLastElement([
+    [1, 2, 3],
+    [4, 5, 6],
+  ])
+);
